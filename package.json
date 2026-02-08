@@ -4,9 +4,10 @@
   "description": "Cloud & DevOps Portfolio Site",
   "main": "index.js",
   "scripts": {
-  "dev": "vite",
-  "build": "node ./node_modules/vite/bin/vite.js build",
-  "preview": "vite preview"
+    "dev": "cd app && npm run dev",
+    "build": "cd app && npm run build",
+    "preview": "cd app && npm run preview",
+    "install": "cd app && npm install"
   },
   "keywords": ["portfolio", "cloud", "devops"],
   "author": "Murtala Dahiru",
