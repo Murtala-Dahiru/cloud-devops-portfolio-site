@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
   "dev": "vite",
-  "build": "node -e \"(async()=>{const { build } = await import('vite'); await build();})().catch(e=>{console.error(e); process.exit(1)})\"",
+  "build": "cd app && npm ci --omit=dev && npm run build",
   "preview": "vite preview"
   },
   "keywords": ["portfolio", "cloud", "devops"],
